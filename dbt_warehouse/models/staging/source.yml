@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: bike_store
+    database: warehouse
+    schema: raw 
+    tables:
+      - name: postgres_bike_store_brands
+        columns:
+          - name: brand_name
+            data_tests:
+              - not_null
+              - is_uppercase
+      - name: postgres_bike_store_categories
+      - name: postgres_bike_store_customers
+      - name: postgres_bike_store_order_items
+      - name: postgres_bike_store_orders
+      - name: postgres_bike_store_products
+        columns:
+          - name: product_name
+            data_tests:
+              - not_null
+              - is_uppercase
+      - name: postgres_bike_store_staffs
+      - name: postgres_bike_store_stocks
+      - name: postgres_bike_store_stores
