@@ -14,12 +14,6 @@ The purpose of this project is to demonstrate a complete ELT pipeline setup, whe
 <img src="https://github.com/nabilraihann/ELT-Pipeline-Bike-Store/blob/main/Pipeine%20design.png" alt="elt-pipeline-design" width="800">
 </p>
 
-## Project Structure
-```
-├── airflow/            # DAGs and scripts for Airflow orchestration
-└── dbt_warehouse/      # dbt project 
-```
-
 ## Airflow DAG
 <p align="center">
 <img src="https://github.com/nabilraihann/ELT-Pipeline-Bike-Store/blob/main/airflow%20dags.png" alt="airflow-dag" width="800">
@@ -37,5 +31,5 @@ The purpose of this project is to demonstrate a complete ELT pipeline setup, whe
 ## dbt DAG
 
 <p align="center">
-<img src="https://github.com/nabilraihann/ELT-Pipeline-Bike-Store/blob/main/dbt-dag.png" alt="dbt-dag" width="800">
+<!-- <img src="" width="800"> -->
 </p>
