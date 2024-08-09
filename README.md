@@ -26,8 +26,8 @@ The purpose of this project is to demonstrate a complete ELT pipeline setup, whe
 - **dbt-run** = This task triggers the dbt run command within the dbt project. It executes the data transformation models defined in dbt, applying them to the data to prepare it for analysis.
 
 ### Task Dependencies
-- airbyte_sync >> [dbt_snapshot, dbt_test]: This defines the dependencies, where airbyte_sync must complete successfully before both dbt_snapshot and dbt_test can start.
-- dbt_snapshot >> dbt_run << dbt_test: This indicates that both dbt_snapshot and dbt_test must complete before dbt_run starts. It also shows that dbt_snapshot and dbt_test are parallel tasks.
+- **airbyte_sync >> [dbt_snapshot, dbt_test]**: This defines the dependencies, where airbyte_sync must complete successfully before both dbt_snapshot and dbt_test can start.
+- **dbt_snapshot >> dbt_run << dbt_test**: This indicates that both dbt_snapshot and dbt_test must complete before dbt_run starts. It also shows that dbt_snapshot and dbt_test are parallel tasks.
 ## dbt DAG
 
 <p align="center">
