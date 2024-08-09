@@ -31,5 +31,5 @@ The purpose of this project is to demonstrate a complete ELT pipeline setup, whe
 ## dbt DAG
 
 <p align="center">
-<!-- <img src="" width="800"> -->
+<img src="https://github.com/nabilraihann/ELT-Pipeline-Bike-Store/blob/main/dbt-data-lineage.png" width="800">
 </p>
